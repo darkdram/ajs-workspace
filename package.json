@@ -1,0 +1,23 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "browser based game",
+  "main": "index.js",
+  "keywords": [
+    "game"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  },
+  "dependencies": {
+    "core-js": "^3.18.2"
+  }
+}
